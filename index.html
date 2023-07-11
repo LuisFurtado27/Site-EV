@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code - Desenvolvimento de Site</title>
+    <link rel="stylesheet" href="css/styleSheet.css" />
+  </head>
+  <body>
+    <div class="container-principal">
+      <header>
+        <div class="logo">
+          <a href="index.html">
+            <img src="imagem/logo.jpg" alt="logo site" />
+          </a>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="clientes.html">Clientes</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="banner">
+        <img src="imagem/banner.jpg" alt="banner-topo" />
+      </section>
+
+      <div id="openModal" class="modalDialog">
+        <div>
+          <a href="#close" class="close">X</a>
+          <h1>TITULO 1</h1>
+          <p>Aqui é o texto 1</p>
+          <img src="imagem/html5.png" alt="logo html5" />
+        </div>
+      </div>
+      <div id="openModal1" class="modalDialog">
+        <div>
+          <a href="#close" title="close" class="close">X</a>
+          <h1>TITULO 2</h1>
+          <p>Aqui é o texto 2</p>
+        </div>
+      </div>
+      <div id="openModal2" class="modalDialog">
+        <div>
+          <a href="#close" title="Close" class="close">X</a>
+          <h1>TITULO 3</h1>
+          <p>Aqui é o texto 3</p>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-text">
+          <h3>Titulo 1</h3>
+          <p>
+            Primeiro texto, texto de numero um, onde inicia. -
+            <a href="#openModal">clique aqui</a>.
+          </p>
+        </div>
+        <div class="footer-text">
+          <h3>Titulo 2</h3>
+          <p>
+            Segundo texto, texto de numero dois, onde é a metade. -
+            <a href="#openModal1">clique aqui</a>.
+          </p>
+        </div>
+        <div class="footer-text">
+          <h3>Titulo 3</h3>
+          <p>
+            Terceiro texto, texto de numero três, onde termina. -
+            <a href="#openModal2">clique aqui</a>.
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
